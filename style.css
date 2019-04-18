@@ -1,0 +1,43 @@
+body{
+	background-color: #1f1f1f;
+}
+
+a:hover{
+	border-bottom: solid #f7f7f7;
+}
+
+a{
+	border: none;
+	border-bottom: dotted #f7f7f7;
+}
+
+img{
+	width: 64px;
+	height: 64px;
+}
+
+button{
+	background: #1f1f1f;
+	border: none;
+	border-bottom: dotted #f7f7f7;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+button:hover{
+	border-bottom: solid #f7f7f7;
+}
+.header{
+	font-family: "Nexa", sans-serif;
+	font-size: 90px;
+	color: #f7f7f7;
+	margin-top: 20px;
+	margin-left: 20px;
+	text-align: center;
+}
+
+.text{
+	font-family: "Nexa", sans-serif;
+	font-size: 30px;
+	color: #f7f7f7;
+}
