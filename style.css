@@ -3,12 +3,12 @@ body{
 }
 
 a:hover{
-	border-bottom: solid #f7f7f7;
+	border-bottom: dotted #f7f7f7;
 }
 
 a{
 	border: none;
-	border-bottom: dotted #f7f7f7;
+	border-bottom: solid #f7f7f7;
 }
 
 img{
@@ -19,13 +19,13 @@ img{
 button{
 	background: #1f1f1f;
 	border: none;
-	border-bottom: dotted #f7f7f7;
+	border-bottom: solid #f7f7f7;
 	padding: 10px;
 	margin-top: 10px;
 }
 
 button:hover{
-	border-bottom: solid #f7f7f7;
+	border-bottom: dotted #f7f7f7;
 }
 .header{
 	font-family: "Nexa", sans-serif;
@@ -37,7 +37,7 @@ button:hover{
 }
 
 .text{
-	font-family: "Nexa", sans-serif;
-	font-size: 30px;
+	font-family: "Nexa Light", sans-serif;
+	font-size: 25px;
 	color: #f7f7f7;
 }

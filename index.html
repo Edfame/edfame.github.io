@@ -8,21 +8,15 @@
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="script.js"></script>
 </head>
-<body>
+<body onload="main()">
 <div>
     <div>
         <h1 class="header">Edfame<img src="images/bouncy.png"></h1>
     </div>
 
-    <div align="center">
+    <div id = "initDiv" align="center"></div>
 
-        <div id="nonSocial"></div>
-        <div id="social"></div>
-
-        <button class ="text" id = "nsb"onclick="nonSocial()">Non-Social</button>
-        <button class ="text" id = "sb" onclick="social()">Social</button>
-    </div>
-
+    <div id = "content" align="center"></div>
 </div>
 
 </body>
