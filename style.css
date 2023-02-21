@@ -1,43 +1,152 @@
-body{
-	background-color: #1f1f1f;
+body {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 40px 10px;
+	gap: 10px;
+
+	position: relative;
+	max-width: 100%;
+	min-height: 100vh;
+
+	background:
+			linear-gradient(rgba(244, 244, 244, 0.50), rgba(244, 244, 244, 0.50)),
+			url(images/background.jpg) no-repeat;
+	background-size: cover;
+
 }
 
-a:hover{
-	border-bottom: dotted #f7f7f7;
-}
+.title {
 
-a{
-	border: none;
-	border-bottom: solid #f7f7f7;
-}
+	font-family: 'Roboto Flex', 'sans-serif';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 80px;
 
-img{
-	width: 64px;
-	height: 64px;
-}
-
-button{
-	background: #1f1f1f;
-	border: none;
-	border-bottom: solid #f7f7f7;
-	padding: 10px;
-	margin-top: 10px;
-}
-
-button:hover{
-	border-bottom: dotted #f7f7f7;
-}
-.header{
-	font-family: "Nexa", sans-serif;
-	font-size: 90px;
-	color: #f7f7f7;
-	margin-top: 20px;
-	margin-left: 20px;
+	display: flex;
+	align-items: center;
 	text-align: center;
+
+	color: #262626;
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+
 }
 
-.text{
-	font-family: "Nexa Light", sans-serif;
-	font-size: 25px;
-	color: #f7f7f7;
+.title .bold{
+
+	font-weight: 600;
+
+}
+
+.button_group {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+	gap: 15px;
+
+	flex: none;
+	flex-grow: 1;
+
+}
+
+.button {
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 10px 15px;
+	gap: 10px;
+	text-decoration: none;
+
+	width: 100%;
+	min-width: 310px;
+	max-width: 450px;
+
+	background: rgba(39, 39, 39, 0.80);
+	box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.25);
+	border-radius: 15px;
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+
+}
+
+.button:hover {
+
+	background: rgba(39, 39, 39, 0.95);
+
+}
+
+.button_element {
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+	gap: 10px;
+
+	flex: none;
+	align-self: stretch;
+	flex-grow: 1;
+
+}
+
+.button_element:first-of-type {
+
+	min-width: 200px;
+
+}
+
+.button_element .text {
+
+	all: unset;
+	font-family: 'Roboto Flex', 'sans-serif';
+	font-style: normal;
+	font-weight: 3010;
+	font-size: 48px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #F4F4F4;
+
+
+}
+
+.button_element .icon {
+
+	all: unset;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 7px;
+	gap: 10px;
+
+	width: 48px;
+	height: 48px;
+
+	background: #F4F4F4;
+	border-radius: 100px;
+
+}
+
+.button_element img {
+
+	all: unset;
+	width: 100%;
+	height: auto;
+	border-radius: 100px;
+
+
 }
